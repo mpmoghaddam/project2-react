@@ -1,0 +1,43 @@
+.myapp__home {
+    display: flex;
+    flex-direction: row;
+}
+.myapp__home__container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: 5rem;
+}
+.myapp__home__container-img img{
+    height: 15rem;
+    width: 30rem;
+}
+.myapp__home__container__heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+.myapp__home__container__heading-h2 h2{
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    max-width: 510px;
+    color: var(--color-text);
+    flex-direction: row;
+    
+}
+.myapp__home__container__heading-p p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+    
+}
