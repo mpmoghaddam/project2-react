@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import threepeople from '../../assests/threepeople.jpg'
+import threepeople from '../../assets/threepeople.jpg'
 const Home = () => {
     return(
     <div className ="myapp__home section__padding" id ="home">

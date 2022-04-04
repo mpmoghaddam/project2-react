@@ -14,6 +14,7 @@
 .myapp__home__container-img img{
     height: 15rem;
     width: 30rem;
+    border-radius: 20px;
 }
 .myapp__home__container__heading{
     display: flex;

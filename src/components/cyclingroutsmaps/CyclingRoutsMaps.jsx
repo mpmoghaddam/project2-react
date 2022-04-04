@@ -1,6 +1,9 @@
 import React from 'react';
 import './cyclingroutsmaps.css';
-import hornbybeforeafter from '../../assests/hornbybeforeafter.jpg'
+import hornbybeforeafter from '../../assets/hornbybeforeafter.jpg';
+import bicycleparking from '../../assets/bicycleparking.jpg';
+import traditionalrack from '../../assets/traditionalrack.jpg';
+import ushaperack from '../../assests/ushaperack.jpg';
 const CyclingRoutsMaps = () => {
     return(
     <div className ="myapp__cycling section__padding" id ="cyclingroutsmaps">
@@ -42,12 +45,49 @@ const CyclingRoutsMaps = () => {
                               </div>           
                           </div>
                         </div>
-                        </div>
+                        
                             <div className ="myapp__cycling__container__heading-p" >
                               <p>On avenue such as 6th, the protected bike lanes are one-way on one or two sides of the street. Please ride safely, and ensure you are riding the right way in a one-way bike lane.</p>
                             </div>
+                        
+<br /><br />
+
+                        <div className ="myapp__cycling__container__heading-h2-parking">
+                             <h2>Bicycle parking and air pumps</h2>
+                           <div className ="myapp__cycling__container__heading-p-parking" >
+                             <p>We install convenient bike parking throughout Calgary.</p><br />
+                             <p>Our bike racks keep your bike out of the way of people walking and provide greater security than locking your bicycle to sign posts.</p><br />
+                             <div className="myapp__cycling-parking-img">
+                                    <img src ={bicycleparking} />
+                             </div>
+                          </div>
                         </div>
-                    
+                        <div classname = "myapp__cycling__heading-bikeparking">
+                          <div className= "myapp__cycling__heading-traditionalbikeracks">
+                            <div className ="myapp__cycling__content-traditionalbikeracks">
+                              <div className ="myapp__cycling-img-traditionalbikeracks">
+                                <h1>Types of bike parking</h1>
+                                <h2>Traditional bike racks</h2>
+                                <p>Bike racks provide quick places to lock your bicycle. The City installs several around Vancouver. Businesses may install bike racks to support their customers. Free public bicycle racks are also available at downtown EasyPark lots.</p>
+                                <img src={traditionalrack} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className= "myapp__cycling__heading-ushapebikeracks">
+                            <div className ="myapp__cycling__content-ushapebikeracks">
+                              <div clssName ="myapp__cycling-img-ushapebikeracks">
+                                <h2>U-shaped bike racks</h2>
+                                <p>These racks lock up to two bikes at a time and use less sidewalk space than traditional racks. U-shaped bike racks are accessible and attractive, eliminate clutter from sidewalks, and reduce hazards to people walking on sidewalks.</p>
+                                <img src= {ushaperack} alt="" />
+                              </div>
+
+                            </div>
+
+                          </div>
+                      </div>  
+                        
+                   </div> 
+                </div>
                 </div>
            
         
